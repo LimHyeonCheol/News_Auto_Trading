@@ -1,13 +1,13 @@
-package com.lhc.trading.main;
+package com.lhc.trading;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ComApplication {
+public class TradingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ComApplication.class, args);
+		SpringApplication.run(TradingApplication.class, args);
 	}
 
 }

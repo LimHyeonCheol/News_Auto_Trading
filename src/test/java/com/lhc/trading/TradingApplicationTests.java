@@ -1,10 +1,10 @@
-package com.trading.com;
+package com.lhc.trading;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ComApplicationTests {
+class TradingApplicationTests {
 
 	@Test
 	void contextLoads() {
