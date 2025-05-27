@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: trading
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/tradingdb
+    username: your_username
+    password: your_password
+
+  # R2DBC의 초기 테이블 생성을 위한 flyway/liquibase 쓰지 않는다면 생략 가능
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.r2dbc: DEBUG
